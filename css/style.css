@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: url(../background.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 1000px;
+    height: 650px;
+}
+
+.container-fluid {
+    background-color: rgba(35, 35, 51, 0.582);
+    background-size: cover;
+    min-height: 300px;
+    max-height: 1000px;
+    height: 650px;
+}
+    /* opacity: 0.7; */
+    
+
+
+/* #container .navbar {
+
+    margin-left: -80px;
+    margin-right: -80px;
+} */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+header ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+}
+
+header ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px 13px 20px;
+    text-transform: uppercase;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    list-style: none;
+    transition: 1s;
+    color: yellow;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 15px;
+}
+
+header ul li a:active {
+    background-color: palevioletred;
+    border: none;
+    border-radius: 15px;
+}
+
+#logo span {
+    color: green;
+}
+
+.home-row {
+    margin-top: 70px;
+    color: white;
+}
+
+.logo img {
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 250px;
+}
+
+.home-collogo h1 {
+    /* color: white; */
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.home-collogo p {
+    /* color: white; */
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.checkMenu-btn button {
+    background-color: yellow;
+    padding: 10px 20px 13px 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.checkMenu-btn button a {
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.checkMenu-btn button a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+.checkMenu-btn button:hover {
+    background-color: palevioletred;
+}
+
+/*.....About page......*/
+.main {
+   width: 1334px;
+   height: 100rem;
+}
+
+.navbar {
+    background-color: rgba(35, 35, 51, 0.925);
+}
+
+.middle {
+    background: url(../images/us5.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 700px;
+    height: 450px;
+}
+
+.mid {
+    background-color: rgba(35, 35, 51, 0.575);
+    background-position: 100%;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 700px;
+    height: 450px;
+}
+
+.fluid .middle h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.fluid .middle h1 span {
+    color: green;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-around;
+    margin: 50px;
+   
+}
+
+.card {
+    
+    height: 380px;
+    padding-left: 50px;
+    margin: px;
+}
+
+.one {
+    flex-grow: 1;
+    width: 450px;
+    background-color: rgba(199, 199, 206, 0.438);
+    border: none;
+}
+
+.two {
+    flex-grow: 1;
+    width: 355px;
+}
+
+.three {
+    width: 85px;
+    background-color: black;
+}
+
+.line {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 90px;
+    height: 5px;
+    background-color: rgba(0, 0, 255, 0.596);
+}
+
+.one h1 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.one p {
+    box-sizing: border-box;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+.card-one {
+    margin-top: 15px;
+}
+
+.card-one span {
+    color: green;
+}
+
+.major {
+    
+    height: 600px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.minor {
+    width: 27%;
+    height: 65%;
+    margin: 10px;
+    /* margin-top: 100px; */
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.major-container {
+    background-color: rgba(59, 24, 24, 0.836);
+    width: 1345px;
+    height: 700px;
+    /* position: relative;
+    right: 70px; */
+}
+
+.ceo {
+    background-color: white;
+}
+
+.cio {
+    background-color: white;
+}
+
+.minor img {
+    height: 320px;
+    width: 300px;
+    padding: 50px;
+    padding-bottom: ;
+}
+
+.minor figcaption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.minor figcaption span {
+    color: green;
+    font-weight: normal;
+}
+
+.top {
+    text-align: center;
+    padding-top: 60px;  
+}
+
+.top h1 {
+    margin-bottom: -10px;
+    color: white;
+}
+
+.top h1 span {
+    color: green;
+}
+
+.major-line {
+    position: relative;
+    left: 39rem;
+    width: 90px;
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: rgba(32, 32, 184, 0.753);
+}
+
+footer {
+    width: 1345px;
+    background-color: rgba(255, 255, 0, 0.719);
+    padding: 20px 0px 17px 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(59, 24, 24, 0.836);
+    text-align: center;
+}
+
+/*....Contact.....*/
+.main-container {
+    width: 1334px;
+    height: 80rem;
+ }
+
+.mid-contact {
+    background: url(../images/ct6.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 700px;
+    height: 450px;
+}
+
+.sec-row {
+    background: url(../images/ct5.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+}
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 80%;
+    margin: 80px 80px;
+   
+}
+
+.half {
+    width: 25%;
+    height: 113%;
+    border-radius: 10px;
+    
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    
+    
+}
+
+/* .....small card..... */
+.small-card {
+    flex-grow: 1;
+    border: 2px solid yellow;
+    background-color: rgba(100, 55, 17, 0.562);
+}
+
+.small-card h2 span {
+    color: green;
+}
+
+.small-card h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.small-card h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.small-card h3 span {
+    color: green;
+}
+
+.small-card h4 {
+    color: yellow;
+}
+
+.working-hours ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.working-hours {
+    margin-bottom: 30px;
+    margin-left: 0px;
+    font-size: 18px;
+    line-height: 45px;
+    margin-bottom: 100px;
+}
+
+.working-hours ul .fas {
+    color: black;
+}
+
+/* .....big card.... */
+.big-card {
+    flex-grow: 3;
+    background-color: rgba(30, 18, 71, 0.521); 
+}
+
+.big-card h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.holder {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.push {
+    margin-left: 20px;
+}
+
+.flexme {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex-name {
+    width: 250px;
+    margin-right: 20px;
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.space {
+    margin-bottom: 20px;
+    width: 520px;
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.space1 {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    font-size: 20px;
+    width: 520px;
+    height: 200px;
+}
+
+.big-card ::placeholder {
+    color: rgba(128, 128, 128, 0.596);
+}
+
+#name-sp {
+    font-size: 25px;
+    color: yellow;
+}
+
+#name-sp i {
+    color: red;
+}
+
+.push {
+    padding: 8px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.big-card h1 span {
+    color: green;
+}
+.foot {
+    margin-bottom: 15px
+}
+
