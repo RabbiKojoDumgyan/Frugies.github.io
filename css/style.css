@@ -305,11 +305,11 @@ header ul li a:active {
 
 footer {
     width: 1345px;
-    background-color: rgba(255, 255, 0, 0.719);
+    background-color: rgba(35, 35, 51, 0.925);
     padding: 20px 0px 17px 0px;
     font-size: 20px;
     font-weight: normal;
-    color: rgba(59, 24, 24, 0.836);
+    color: white;
     text-align: center;
 }
 
