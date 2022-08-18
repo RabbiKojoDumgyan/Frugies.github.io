@@ -149,11 +149,13 @@ button:hover {
 }
 /*.....FOOTER......*/
 .footer {
-    background-color: rgba(255, 255, 0, 0.719);
-    padding: 10px 0;
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(35, 35, 51, 0.925);
+    color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
     text-align: center;
+    padding: 7px 0px 17px 0px;
+    font-size: 20px;
+    font-weight: normal;
 }
 /*making progress*/
 
